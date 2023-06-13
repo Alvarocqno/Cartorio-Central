@@ -36,7 +36,8 @@ main {
     display: flex;
     background-color: var(--cor2);
     width: 90%;
-    margin: 20px auto; /* Adicione uma margem para espaçamento */
+    margin-top: 0;
+    margin: 0px auto 20px auto; /* Adicione uma margem para espaçamento */
     border-radius: 0 0 5px 5px;
     text-align: center;
     padding-bottom: 20px; /* Adicione um espaçamento inferior */
@@ -68,13 +69,12 @@ section {
 
 
 .box {
-    /* display: inline-block; */
     background-color: var(--cor1);
     width: 300px;
     height: 300px;
     margin: 20px;
+    padding-top: 5px;
     float: left;
-    /* text-align: center; */
     list-style-type: none;
     border-radius: 5px;
 }
