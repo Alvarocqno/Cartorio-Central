@@ -16,13 +16,20 @@
 }
 
 body {
-    background-color: var(--cor3);
+    /*background-color: var(--cor3);*/
+    background-image: url(editado.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
     
 }
 header {
     color: #BFBFB8;
     display: flex;
-    background-color: var(--cor4);
+    background-color: rgba(0, 0, 0, 0.278);
+    
     padding: 30px;
     /*width: 100%;*/
     font-weight: normal;
@@ -34,7 +41,7 @@ header {
 
 main {
     display: flex;
-    background-color: var(--cor2);
+    /*background-color: var(--cor2);*/
     width: 90%;
     margin-top: 0;
     margin: 0px auto 20px auto; /* Adicione uma margem para espaçamento */
@@ -69,7 +76,7 @@ section {
 
 
 .box {
-    background-color: var(--cor1);
+    background-color: #a4a69c29;
     width: 300px;
     height: 300px;
     margin: 20px;
@@ -83,6 +90,4 @@ li {
     list-style-type: none;
     text-align: left;
     padding: 5px 0px 5px 5px;
-
-
 }
