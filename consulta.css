@@ -1,0 +1,51 @@
+main {
+    display: flex;
+    width: 90%;
+    margin-top: 0;
+    margin: 0px auto 20px auto; /* Adicione uma margem para espaçamento */
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+    padding-bottom: 20px; /* Adicione um espaçamento inferior */
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+ .box::after { 
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#page1 {
+    height: 100vh;
+}
+
+.box {
+    background-color: #a4a69c29;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding-top: 5px;
+    float: left;
+    list-style-type: none;
+    border-radius: 5px;
+}
+
+li {
+    list-style-type: none;
+    text-align: left;
+    padding: 5px 0px 5px 5px;
+}
